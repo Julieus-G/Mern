@@ -1,0 +1,40 @@
+.inputs{
+    display: flex;
+    justify-content: flex-end;
+    background-color:rgb(186, 219, 219);
+    padding: 10px;
+    margin: 2rem 29rem;
+    border-radius: 7px;
+    box-shadow:rgb(143, 182, 182) 0px 5px 15px;
+}
+.theinput{
+    margin-right: auto;
+    width: 89%;
+    overflow: visible;
+    color: black;
+    font-size: medium;
+    border: none;
+    background-color:rgb(186, 219, 219);
+}
+.theinput:focus{
+    outline: none;
+}
+.actions{
+    display: flex;
+}
+.calender{
+    transform: scale(1.5);
+    /* background-color: yellow; */
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.btn{
+    /* background-color: blueviolet; */
+    color: rgba(17, 16, 16, 0.575);
+    font-size: 18px ;
+    font-weight: 900;
+    background-color:rgb(186, 219, 219);
+}
+.btn:hover{
+    color: black;
+}
